@@ -1,0 +1,14 @@
+Instructions of generating a grid_map
+
+1. 	There are 3 java files.
+
+	Game is for the main method.
+	Map_grid is for the map generation.
+	Window is for the main window_frame creation.
+	Under the current circumstance, the program will create a frame(static Window.Win) with two Panels
+	(static Window.Map_panel)(Window.infoboard). One button(Win.start) to generate the map.
+	
+2.	Method for generating the map is Map_grid.generate(JPanel map_panel,int rows, int columns) method.
+	map_panel is the panel contains the map(layout is set as GridLayout) and return a 2-dimension array.
+	this array contains all the grids object. The array records the objects in rows by columns and start from
+	zero. Remember to adjust the rows and columns parameter due to your panel size if you want square grids. 
