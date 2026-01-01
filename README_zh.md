@@ -49,6 +49,7 @@ public static MapGrid[][] generate(
 ## 运行环境
 
 - Java Development Kit (JDK) 8 或更高版本
+- jar包使用Java 25打包
 
 ## 运行
 

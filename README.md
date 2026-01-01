@@ -49,6 +49,7 @@ Detailed explanations of the parameters and return value can be found in the sou
 ## Requirements
 
 - Java Development Kit (JDK) 8 or higher
+- The jar package is packaged with Java 25.
 
 ## Run
 
