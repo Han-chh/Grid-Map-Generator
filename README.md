@@ -50,22 +50,11 @@ Detailed explanations of the parameters and return value can be found in the sou
 
 - Java Development Kit (JDK) 8 or higher
 
----
+## Run
 
-## Installation and Running
-
-1. Make sure JDK is installed on your system.
-2. Navigate to the project root directory.
-3. Compile the source files:
-   ```bash
-   javac -d bin src/MapGenerator/*.java
-   ```
-4. Run the application:
-   ```bash
-   java -cp bin MapGenerator.Game
-   ```
-
----
+```bash
+java -jar Grid-Map-Generator.jar
+```
 
 ## Usage
 

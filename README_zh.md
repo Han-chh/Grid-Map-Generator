@@ -50,22 +50,11 @@ public static MapGrid[][] generate(
 
 - Java Development Kit (JDK) 8 或更高版本
 
----
+## 运行
 
-## 安装与运行
-
-1. 确保系统已安装 JDK  
-2. 进入项目根目录  
-3. 编译源代码：
-   ```bash
-   javac -d bin src/MapGenerator/*.java
-   ```
-4. 运行程序：
-   ```bash
-   java -cp bin MapGenerator.Game
-   ```
-
----
+```bash
+java -jar Grid-Map-Generator.jar
+```
 
 ## 使用方法
 
